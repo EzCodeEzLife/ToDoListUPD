@@ -42,8 +42,6 @@ namespace ToDoListUPD.Controllers
         }
 
         // PUT: api/Goals/5
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for
-        // more details see https://aka.ms/RazorPagesCRUD.
         [HttpPut("{id}")]
         public async Task<IActionResult> PutGoals(int id, Goals goals)
         {
@@ -74,8 +72,6 @@ namespace ToDoListUPD.Controllers
         }
 
         // POST: api/Goals
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for
-        // more details see https://aka.ms/RazorPagesCRUD.
         [HttpPost]
         public async Task<ActionResult<Goals>> PostGoals(Goals goals)
         {
